@@ -17,7 +17,7 @@ const App = () => {
           <h2>{movie.Title} ({movie.Year})</h2>
           <img src={movie.Poster}></img>
         </li>)
-      })}</ul> : <p>Invalid movie name. Please try again.</p>
+      })}</ul> : <p className="error">Invalid movie name. Please try again.</p>
     }
     </div>
   )
